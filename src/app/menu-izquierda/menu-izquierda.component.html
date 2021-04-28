@@ -1,8 +1,13 @@
-<ul>
-    <li *ngFor = " let opcion of opciones" > 
-        <a href="">{{opcion}}</a>
-    </li>
+<div id="menuIzquierda">
 
-        
+    <nav >
+        <ul id="ul-menu">
+            <li *ngFor = " let opcion of opciones; let i = index"  > 
+                <a href="#section-{{i+1}}">{{opcion}}</a>
+            </li>                   
+        </ul>
+      </nav>
 
-</ul>
+    
+</div>
+
