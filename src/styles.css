@@ -6,11 +6,22 @@
   
   html, body {
     
-    background: white;
-    margin: 20px;
-    color: #3e4144;
+    background: url(assets/imagenes/18710.JPG);
+    background-size: 100%;
+    
+    color: black;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smoothing;
+
   }
+  html::-webkit-scrollbar{
+    width: 10px;
+  }
+  html::-webkit-scrollbar-thumb{
+    background: blue;
+    border-radius: 5px;
+  }
+  
   
   
   dd {
@@ -39,4 +50,23 @@
   .p-1 {
     padding: 1px;
   }
- 
+  #section-1{
+    background: white;
+    padding-bottom: 500px;
+    
+}
+#section-2{
+  background: green;
+  padding-bottom: 500px;
+}
+#section-3{
+  background: rgb(0, 255, 170);
+  padding-bottom: 500px;
+}
+#imagenHeader{
+  width: 100px;
+  height: 400px;
+}
+#cabecero{
+  padding-top: 40%;
+}
